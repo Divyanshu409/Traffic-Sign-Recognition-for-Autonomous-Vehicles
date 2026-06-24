@@ -291,11 +291,3 @@ The normalized matrix (recall per class) shows near-perfect recall for every cla
 - Developed by: **[Divyanshu409](https://github.com/Divyanshu409)**
 
 ---
-
-<div align="center">
-
-⭐ **If you found this project useful, please give it a star!** ⭐
-
-Made with ❤️ during internship at **InLighnx Global**
-
-</div>
