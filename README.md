@@ -2,13 +2,6 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?style=for-the-badge&logo=keras)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Accuracy](https://img.shields.io/badge/Accuracy-99.9%25-brightgreen?style=for-the-badge)
-
 **A high-accuracy deep learning model for real-time traffic sign recognition, trained on the GTSRB dataset, capable of classifying 43 traffic sign categories with 99.9% validation accuracy.**
 
 *Developed during internship at **InLighnx Global***
@@ -52,13 +45,6 @@ This project implements a **Convolutional Neural Network (CNN)** for traffic sig
 
 ### Live Webcam Detection
 The webcam module detects traffic signs in real time using your system camera. It draws a region-of-interest (ROI) box and displays the top predictions with confidence scores.
-
-| Sample: Speed Limit (30km/h) | Sample: Ahead Only |
-|:---:|:---:|
-| ![Speed Limit 30](screenshots/Screenshot_2026-06-24_165054.png) | ![Ahead Only](screenshots/Screenshot_2026-06-24_172017.png) |
-
-### Sample Predictions
-![Sample Predictions](results/sample_predictions.png)
 
 > All predictions shown in **green** = correct. The model correctly classifies signs even under varying lighting, angle, and resolution conditions.
 
@@ -134,18 +120,13 @@ The model is trained on the **[GTSRB — German Traffic Sign Recognition Benchma
 ```
 Traffic-Sign-Recognition-for-Autonomous-Vehicles/
 │
-├── 📂 results/
+├──  results/
 │   ├── augmentation_preview.png          # Data augmentation visualization
 │   ├── confusion_matrix_full.png         # Full confusion matrix (43 classes)
 │   ├── confusion_matrix_normalized.png   # Normalized confusion matrix (recall per class)
 │   ├── per_class_accuracy.png            # Per-class accuracy bar chart
 │   ├── sample_predictions.png            # Sample model predictions
 │   └── training_curves.png              # Training & validation accuracy/loss curves
-│
-├── 📂 screenshots/
-│   ├── Screenshot_2026-06-24_165054.png  # Webcam demo – Speed Limit (30km/h)
-│   └── Screenshot_2026-06-24_172017.png  # Webcam demo – Ahead Only
-│
 ├── class_names.json                      # List of 43 class label names
 ├── predict.py                            # Single image prediction script (GUI file picker)
 ├── webcam_live.py                        # Real-time webcam inference script
